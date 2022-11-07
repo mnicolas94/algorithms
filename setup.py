@@ -65,7 +65,7 @@ if __name__ == '__main__':
             long_description = fh.read()
 
         setuptools.setup(
-            name="mnd_algorithms",
+            name="mnd-algorithms",
             version=version,
             author="Miguel Nicolás-Díaz",
             author_email="miguelcok27@gmail.com",
