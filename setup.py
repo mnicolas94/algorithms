@@ -65,17 +65,17 @@ if __name__ == '__main__':
             long_description = fh.read()
 
         setuptools.setup(
-            name="***",
+            name="mnd_algorithms",
             version=version,
             author="Miguel Nicolás-Díaz",
             author_email="miguelcok27@gmail.com",
-            description="***",
+            description="Provides some interfaces for common algorithms used mainly in image and video processing.",
             long_description=long_description,
             long_description_content_type="text/markdown",
-            url="https://github.com/mnicolas94/***",
+            url="https://github.com/mnicolas94/algorithms",
             packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
             install_requires=[
-                '***'
+                'propsettings'
             ],
             classifiers=[
                 "Programming Language :: Python :: 3",
